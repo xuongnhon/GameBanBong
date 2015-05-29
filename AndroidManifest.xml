@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.game"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".BanBongActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChonCheDoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".XemDiemCaoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CaiDatActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ChoiQuaManActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ChonLevelActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CHOIGAMEActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ResumeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ChoiTuDoThuaActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ChoiQuaManThuaActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ChoiQuaManThangActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ChoiQuaManKetThucActivity"
+            android:label="@string/app_name" >
+        </activity>
+		<activity
+			android:name=".LevelSelector"   android:configChanges="orientation|keyboardHidden"   android:screenOrientation="portrait" />
+        
+    </application>
+
+</manifest>

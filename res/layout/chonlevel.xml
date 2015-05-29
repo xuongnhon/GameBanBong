@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.likeapp.sukudo"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/ImageViewBackGroundChonLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chonlevelbg" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/ButtonLevel01"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/level01" />
+
+                <Button
+                    android:id="@+id/ButtonLevel02"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/level02" />
+
+                <Button
+                    android:id="@+id/ButtonLevel03"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/level03" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/ButtonLevel04"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/level04" />
+
+                <Button
+                    android:id="@+id/ButtonLevel05"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/level05" />
+
+                <Button
+                    android:id="@+id/ButtonLevel06"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/level06" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/ButtonLevel07"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/level07" />
+
+                <Button
+                    android:id="@+id/ButtonLevel08"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/level08" />
+
+                <Button
+                    android:id="@+id/ButtonLevel09"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/level09" />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
